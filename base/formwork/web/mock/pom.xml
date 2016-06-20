@@ -88,6 +88,19 @@
 			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
+	
+		<distributionManagement>
+		<repository>
+			<id>howbuy-releases</id>
+			<name>howbuy-releases</name>
+			<url>http://nexus.maven.howbuy.test:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>howbuy-snapshots</id>
+			<name>howbuy-snapshots</name>
+			<url>http://nexus.maven.howbuy.test:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<build>
 		<finalName>mock</finalName>
 	</build>
